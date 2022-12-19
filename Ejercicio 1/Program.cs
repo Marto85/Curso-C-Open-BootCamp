@@ -10,7 +10,8 @@ namespace Ejercicio_1
     {
         static void Main(string[] args)
         {
-            string nombre = "Juan";
+            Console.WriteLine("Ingrese su nombre");
+            string nombre = Console.ReadLine();
             Console.WriteLine("Hola " + nombre);
             Console.ReadKey();
         }
