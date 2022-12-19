@@ -10,6 +10,9 @@ namespace Ejercicio_1
     {
         static void Main(string[] args)
         {
+            string nombre = "Juan";
+            Console.WriteLine("Hola " + nombre);
+            Console.ReadKey();
         }
     }
 }
