@@ -11,7 +11,7 @@
             Console.WriteLine("Elija la anchura por favor.");
             int anchura = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("A continuacion mencione si desea dibujar unicamente las esquinas o si desea rellenarlo.");
-            Console.WriteLine("Si desea dibujar las esquinas, escriba 1. Si desea rellenarlo, escriba 2.");
+            Console.WriteLine("Si desea solo dibujar las esquinas, escriba 1. Si desea rellenarlo, escriba 2.");
             int opcion = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Por ultimo, indique por favor cuantos rectangulos o cuadrados desea dibujar.");
             int cantidad = Convert.ToInt32(Console.ReadLine());
