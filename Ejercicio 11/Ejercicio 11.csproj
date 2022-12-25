@@ -3,13 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Ejercicio_9</RootNamespace>
+    <RootNamespace>Ejercicio_11</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Ejercicio 10\Ejercicio 10.csproj" />
-  </ItemGroup>
 
 </Project>
