@@ -11,9 +11,9 @@
             Console.WriteLine("Por favor, indique su email");
             string? email = Console.ReadLine();
             Console.WriteLine("Por favor, indique si dispone de un cupon de descuento. Indique si o no");
-            bool cupon = Convert.ToBoolean(Console.ReadLine());
+            string cupon = Console.ReadLine().ToUpper();
 
-            if (cupon == true)
+            if (cupon == "SI")
             {
                 Console.WriteLine("Por favor, indique el valor del producto");
                 double valorProducto = Convert.ToDouble(Console.ReadLine());
@@ -26,6 +26,7 @@
             {
                 Console.WriteLine("Por favor, indique el valor de la compra");
                 double valorCompra = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Usted no dispone de un cupon de descuento");
                 Console.WriteLine("El valor final de la compra es de " + valorCompra);
             }
         }
