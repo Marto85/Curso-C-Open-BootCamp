@@ -7,9 +7,9 @@
             // Ejercicio 1 de la sesion 5
             Console.WriteLine("Buenos dias. Vamos a solicitarles ciertos datos");
             Console.WriteLine("Por favor, indique su nombre");
-            string nombre = Console.ReadLine();
+            string? nombre = Console.ReadLine();
             Console.WriteLine("Por favor, indique su email");
-            string email = Console.ReadLine();
+            string? email = Console.ReadLine();
             Console.WriteLine("Por favor, indique si dispone de un cupon de descuento. Indique si o no");
             bool cupon = Convert.ToBoolean(Console.ReadLine());
 
